@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+        .come{
+                position:relative;
+                max-width: 550px;
+                margin: 60px;
+                text-align:center;
+                gap: 600px;
+            }
+        .come:before{
+         content:" ";
+         height: 1px;
+         width: 110px;
+         background: black;
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: 0;
+         }
+            .come:after{
+        content:" ";
+        height: 1px;
+        width: 110px;
+        background: rgb(70, 68, 68);
+        display:block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        }
+    form{
+ 
+        border: black 1px;
+        width: 40%;
+        padding: 10px;
+    }
+    #Name,#Email,#Password{
+        width: 60%;
+        padding: 10px 15px;
+    }
+    #submit-button{
+        background: none;
+        width: 65%;
+        background-color: black;
+        color: white;
+        padding: 10px 15px;
+    }
+    .icons{
+        width:85px;
+     height:80px;
+     color: black;
+     justify-content: center;
+     margin: 0 240px;
+     display: flex; gap: 80px;
+     filter: grayscale(100%);
+
+    }
+
+    </style>
+    <small>Don't have an account ? <a href="sign up">Sign up</a></small>
+    <p style="font-size: xx-large;">Sign In</p>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<body>
+    <form action="table.html">
+        
+        <lable for="Email">Email</lable>
+        <br>
+        <input type="email" id="Email"/>
+        <br>
+        <lable for="Password">Password</lable>
+        <br>
+        <input type="password" id="Password">
+        <br><br><br>
+        <input type="checkbox" id="checkbox"><label for="checkbox">I've Read And Agree With The Terms Of Service And Our Privacy Policy</label>
+        <br><br><br><br>
+        <button type="submit-button" id="submit-button"> Sign in</button>
+        <br><br><br>
+        <h2 class="come">Or Sign In With</h2>
+        <div class="icons">
+        <i class="fa fa-google fa-2x"></i>
+        <i class="fa fa-facebook fa-2x"></i>
+        </div>
+    </form>
+</body>
+</html>
