@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        table,th,td{
+        table th,td{
             border: 1px solid black;
+            
         }
+        table{
+            width: 70%;
+            padding: 2cap;
+            border-collapse: collapse;
+            margin-left: 100px;
+            margin-bottom: 100px;
+
+        }
+        tr :nth-child(odd){background-color: rgb(158, 223, 235)}
+        caption{
+            font-weight: bolder;
+            padding: 20px;
+        }
+        tr :nth-child(2){background-color: rgb(128, 108, 146);}
     </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table Document</title>
 </head>
 <body >
-    <table style="width: 70%;">
+    <table>
+        <caption>List of my classmates detail</caption>
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
